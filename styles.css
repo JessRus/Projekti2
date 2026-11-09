@@ -1,0 +1,69 @@
+
+* {
+    font-family:'Lucida Sans', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #f9faf1;
+    padding: 30px;
+}
+
+h1 {
+    color: rgb(50, 94, 90);
+}
+
+.teksti {
+
+    color: rgb(50, 94, 90);
+}
+
+.row {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 70px;
+    padding: 12px 20px;
+    gap: 20px;
+}
+
+input {
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    width: 350px;
+    height: 30px;
+    padding: 10px;
+    background-color: #badfdc;
+    color:rgb(50, 94, 90);
+}
+
+::placeholder {
+    color: rgb(50, 94, 90);
+}
+
+button {
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    background-color: rgb(55, 107, 103);
+    color: #badfdc;
+    cursor: pointer;
+    margin-right: 60px;
+    height: 50px;
+    width: 100px;
+}
+
+#elokuvaInfo {
+    background-color: rgb(55, 107, 103);
+    padding: 20px;
+    margin-top: 40px;
+    max-width: 500px;
+    width: 100%;
+    border-radius: 40px;
+    color:#badfdc;
+}
+
