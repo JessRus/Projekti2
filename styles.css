@@ -57,6 +57,10 @@ button {
     width: 100px;
 }
 
+button:hover {
+    background-color: rgb(39, 84, 81) ;
+}
+
 #elokuvaInfo {
     background-color: rgb(55, 107, 103);
     padding: 20px;

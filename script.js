@@ -1,32 +1,21 @@
-// MUISTA MUUTTAA VIDEO/GITHUB
+const elokuvaInput = document.getElementById("elokuvaInput");
+const haeButton = document.getElementById("haeButton");
+const elokuvaInfo = document.getElementById("elokuvaInfo");
+
+// PUT_YOUR_API_KEY_HERE FOR THE CODE TO WORK
 const API_KEY = "PUT_YOUR_API_KEY_HERE";
 
-const movieInput = document.getElementById("elokuvaInput");
-const searchButton = document.getElementById("haeButton");
-const movieInfo = document.getElementById("elokuvaInfo");
+haeButton.addEventListener("click", function() {
 
-// Add an event listener to the search button
-searchButton.addEventListener("click", function() {
+    const elokuva = elokuvaInput.value;
 
-    // Get the movie name from the input
-    let movieName = movieInput.value;
-
-    // Create the API URL
-    let url = "https://www.omdbapi.com/?apikey="
-        + API_KEY + "&t=" + encodeURIComponent(movieName);
-
-    // Fetch movie information from the API
-    fetch(url)
-
-        // Convert the response into JSON
+    fetch(`https://www.omdbapi.com/?t=${elokuva}&apikey=${API_KEY}`)
         .then(response => response.json())
-
-        // Display the movie information
         .then(data => {
-
+            
             if (data.Response === "True") {
 
-                movieInfo.innerHTML =
+                elokuvaInfo.innerHTML =
                     "<h2>" + data.Title + "</h2>" +
                     "<p>Year: " + data.Year + "</p>" +
                     "<p>Genre: " + data.Genre + "</p>" +
@@ -37,7 +26,7 @@ searchButton.addEventListener("click", function() {
 
             } else {
 
-                movieInfo.textContent = "Something went wrong, movie not found :(";
+                elokuvaInfo.textContent = "Something went wrong, movie not found :(";
 
             }
         })
