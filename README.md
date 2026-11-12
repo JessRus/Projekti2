@@ -1,20 +1,20 @@
-# Projektin nimi
+# Movie Search
 
-**Tekijä(t):** Jessica Rusila
+**Tekijä:** Jessica Rusila
 
 ## Projektisuunnitelma
 
 ### Projektin idea
 
-Sovelluksella käyttäjä voi etsiä elokuvia ja saada tietoa niistä kuten juoni, näyttelijät julkaisuvuosi jne.
+Sovelluksella käyttäjä voi etsiä elokuvia ja saada tietoa niistä kuten juoni, näyttelijät, julkaisuvuosi jne.
 
 ### Suunnitellut toiminnot
 
 Listaa vähintään kolme sovellukseesi suunniteltua toimintoa:
 
-- Käyttäjä voi hakea elokuvaa nimellä
-- Käyttäjä voi lukea tietoa hakemastaan elokuvasta
-- Sovellus ilmoittaa, jos elokuvaa ei löydy
+- Käyttäjä voi hakea elokuvaa nimellä.
+- Käyttäjä voi lukea tietoa hakemastaan elokuvasta.
+- Sovellus ilmoittaa, jos elokuvaa ei löydy.
 
 ### Rautalankamalli / luonnos
 
@@ -36,7 +36,7 @@ Kuvaile, mitä teknologioita käytit ja mikä niiden rooli oli projektissasi.
 
 - HTML – sivun rakenne
 - CSS – ulkoasu ja asettelu
-- JavaScript – toiminnallisuus, DOM-skriptaus ja lomakkeiden validointi
+- JavaScript – toiminnallisuus, DOM-skriptaus, API
 
 ## Sovelluksen käyttö
 
@@ -64,8 +64,8 @@ Kirjoita lyhyet käyttöohjeet sovellukselle.
 
 - Missä onnistuin? **Sain tehtyä ihan toimivan sovelluksen.**
 - Mikä oli haastavaa? **Javascripti on minusta vieläkin vaikeaa.**
-- Mitä parantaisin, jos aikaa olisi enemmän? **Projektini on aika simppeli oisin voinut keksiä vielä jotain lisättävää.**
-- Mitä opin HTML:stä, CSS:stä, JavaScriptistä ja DOM-skriptauksesta? **Emme ole muissa kursseissa tutustuneet paljon apeihin, joten opin paljon siitä miten ne toimivat ja miten voi itse hyödyntää niitä.**
+- Mitä parantaisin, jos aikaa olisi enemmän? **Projektini on aika simppeli olisin voinut keksiä vielä jotain lisättävää.**
+- Mitä opin HTML:stä, CSS:stä, JavaScriptistä ja DOM-skriptauksesta? **Emme ole muissa kursseissa tutustuneet paljon apeihin, joten opin paljon siitä miten ne toimivat ja miten voin itse hyödyntää niitä.**
 - Mikä jäi epäselväksi tai mistä haluaisin oppia lisää? **Javascript on vieläkin mielestäni vähän sekavaa ja en tajua kaikkea.**
 - Oma arvio projektista: **6/10 pistettä**
 
